@@ -1,0 +1,154 @@
+*{
+    font-family: 'Hanken Grotesk';
+    font-size: 62.5%;
+}
+.flex-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    border-radius: 30px;
+}
+.flex-shadow-radius{
+    display: flex;
+    border-radius: 30px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.overall-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 400px;
+    font-size: 3.0rem;
+    padding:40px;
+    height: 500px;
+    gap: 20px;
+    background-image: linear-gradient(var(--gradient-background-2),var(--gradient-background-1));
+    border-radius:30px;
+}
+.overall-container .result-text{
+    color: var(--light-lavender);
+    font-size: 2.4rem;
+}
+.overall-container .gradient-result{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 200px;
+    background-image: linear-gradient(var(--gradient-circle-1),var(--gradient-circle-2));
+    padding: 100px;
+    border-radius: 50%;
+}
+.overall-container .gradient-result .result-1{
+    font-size: 7.2rem;
+    font-weight: 700;
+    color: var(--white);
+}
+.overall-container .gradient-result .result-2{
+    font-size: 1.6rem;
+    width: 50px;
+    color: var(--light-lavender);
+}
+.overall-container .result-note{
+    color: var(--white);
+    font-size: 3.0rem;
+    font-weight: 700;
+}
+.overall-container .result-resume{
+    color: var(--white);
+    font-weight: 500;
+    font-size: 1.6rem;
+    padding: 0  50px;
+}
+.summary-container{
+    width: 400px;
+    height: 500px;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+}
+.summary-container .summary-text{
+    font-size: 2.4rem;
+    font-weight: 700;
+    align-self: flex-start;
+    padding-bottom: 20px;
+}
+.summary-container .especific-results{
+    width: 320px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    justify-self: flex-start;
+}
+.summary-container .especific-results .especific-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 10px;
+    border-radius:10px;
+}
+.summary-container .especific-results .especific-container .especific-results-name{
+    display: flex;
+}
+.summary-container .especific-results .especific-container .especific-result-grade{
+    display: flex;
+}
+.summary-container .especific-results .especific-container p,span{
+    font-size: 2.0rem;
+}
+.summary-container .especific-results .especific-result-grade .gray{
+    color: gray;
+    padding-left: 5px;
+}
+.summary-container .especific-results-name img{
+    margin-left: 5px;
+    margin-right:14px;
+}
+.summary-container .especific-results .reaction{
+    background-color: rgb(255, 244, 244);
+}
+.summary-container .especific-results-name.Reaction{
+    color:#fc5852;
+}
+.summary-container .especific-results .memory{
+    background-color: rgb(255, 255, 224);
+}
+.summary-container .especific-results-name.Memory{
+    color: #ffb323;
+}
+.summary-container .especific-results .verbal{
+    background-color: rgb(230, 249, 236);
+}
+.summary-container .especific-results-name.Verbal{
+    color: #19b488;
+}
+.summary-container .especific-results .visual{
+    background-color: rgb(239, 239, 251);
+}
+.summary-container .especific-results-name.Visual{
+    color: #1a28c8;
+}
+.summary-container .especific-result-grade span{
+    font-size: 1.8rem;
+    font-weight: 700;
+}
+.summary-container .btn{
+    margin:30px 0 10px 0;
+    width: 320px;
+    height: 60px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--dark-gray);
+}
+.summary-container .btn:hover{
+    background-image: linear-gradient(var(--gradient-background-2),var(--gradient-background-1));
+}
+.summary-container .btn p{
+    color: var(--white);
+    font-size: 1.8rem;
+}

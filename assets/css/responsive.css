@@ -1,0 +1,24 @@
+@media (max-width:688px){
+    .flex-container{
+        flex-direction: column;
+        width: auto;
+        height: auto;
+    }
+    .flex-shadow-radius, .overall-container{
+        flex-direction: column;
+        border-top-left-radius: 0;
+        border-top-right-radius: 0;
+    }
+    .summary-container, .overall-container{
+        width: auto;
+        height: 450px;
+        padding: 0;
+    }
+    .overall-container .result-text{
+        padding-top: 30px;
+    }
+    .summary-container .summary-text{
+        align-self: center;
+        padding-top: 10px;
+    }
+}
