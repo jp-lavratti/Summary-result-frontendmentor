@@ -69,6 +69,7 @@
     padding: 40px;
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 .summary-container .summary-text{
     font-size: 2.4rem;
